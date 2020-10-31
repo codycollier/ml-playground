@@ -13,7 +13,8 @@
 #### Notes
 
 * [Notes on setting up Arduino IDE for Adafruit boards](notes-arduino-ide-adafruit-setup.md)
-* [Notes on running Tensorflow Hello World (Sine Wave)](notes-tensorflow-hello-world.md)
+* [Notes on running Tensorflow Hello World (Sine Wave)](notes-tensorflow-sine-wave-hello-world.md)
+* [Notes on cusomizing Tensorflow Sine Wave](notes-tensorflow-sine-wave-custom.md)
 
 
 
