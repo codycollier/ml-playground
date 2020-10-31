@@ -1,22 +1,21 @@
 
-## Notes on the adafruit edgebadge
+## Notes on the Adafruit EdgeBadge
+
+Buy one here:
+* https://www.adafruit.com/product/4400
+
+Chip:
+* `ATSAMD51J19` @ 120MHz with 3.3V logic/power - 512KB of FLASH + 192KB of RAM
+* https://www.microchip.com/wwwproducts/en/ATSAMD51J19A
+* 32-bit ARM® Cortex®-M4 processor
 
 
+## Arduino IDE - Setup
 
-### Setup - Arduino IDE
-
-
-#### Download Arduino IDE
 
 Download:
 * https://www.arduino.cc/en/software
-
-Steps:
-* Download Arduino IDE
 * All notes here use 1.9.0-beta for Mac OS X
-
-
-#### Setup for compiling examples
 
 References: 
 * https://learn.adafruit.com/tensorflow-lite-for-edgebadge-kit-quickstart/setup-for-compiling-examples
@@ -25,10 +24,10 @@ References:
 
 
 Steps:
-* arduino ide -> preferences -> board manager urls
+* ide: arduino ide -> preferences -> board manager urls
 * add adafruit url: https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
 * ...
-* arduino ide -> Tools -> Board -> Board Managers
+* ide: arduino ide -> Tools -> Board -> Board Managers
 * install Arduino SAMD
 * install Adafruit SAMD
 * restart, updates, etc
