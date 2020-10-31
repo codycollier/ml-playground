@@ -23,7 +23,7 @@
 * https://learn.adafruit.com/adafruit-pybadge/arcada-libraries
 
 
-Steps:
+#### Steps:
 ```
 Download and install arduino ide
 . All notes here use 1.9.0-beta for Mac OS X
