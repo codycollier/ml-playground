@@ -1,7 +1,6 @@
 
-# Notes on the Adafruit EdgeBadge
+## Notes on the Adafruit EdgeBadge
 
-...
 
 #### About the device
 
@@ -13,8 +12,8 @@
 
 #### Notes
 
-* [](notes-arduino-ide-adafruit-setup.md)
-* [](notes-hello-world.md)
+* [notes-arduino-ide-adafruit-setup.md]()
+* [notes-hello-world.md]()
 
 
 
