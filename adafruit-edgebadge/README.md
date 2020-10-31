@@ -12,8 +12,8 @@
 
 #### Notes
 
-* [notes-arduino-ide-adafruit-setup.md](notes-arduino-ide-adafruit-setup.md)
-* [notes-hello-world.md](notes-tensorflow-hello-world.md)
+* [Notes on setting up Arduino IDE for Adafruit boards](notes-arduino-ide-adafruit-setup.md)
+* [Notes on running Tensorflow Hello World (Sine Wave)](notes-tensorflow-hello-world.md)
 
 
 
