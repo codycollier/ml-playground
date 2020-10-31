@@ -1,5 +1,10 @@
 
-## Notes on the Adafruit EdgeBadge
+# Notes on the Adafruit EdgeBadge
+
+...
+
+
+## About the badge
 
 Buy one here:
 * https://www.adafruit.com/product/4400
@@ -21,6 +26,7 @@ References:
 * https://learn.adafruit.com/tensorflow-lite-for-edgebadge-kit-quickstart/setup-for-compiling-examples
 * https://learn.adafruit.com/adafruit-pybadge/setup
 * https://learn.adafruit.com/adafruit-pybadge/using-with-arduino-ide
+* https://learn.adafruit.com/adafruit-pybadge/arcada-libraries
 
 
 Steps:
@@ -31,6 +37,8 @@ Steps:
 * install Arduino SAMD
 * install Adafruit SAMD
 * restart, updates, etc
+* ...
+
 
 
 
