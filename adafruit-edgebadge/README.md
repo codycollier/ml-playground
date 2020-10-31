@@ -12,8 +12,8 @@
 
 #### Notes
 
-* [notes-arduino-ide-adafruit-setup.md]()
-* [notes-hello-world.md]()
+* [notes-arduino-ide-adafruit-setup.md](notes-arduino-ide-adafruit-setup.md)
+* [notes-hello-world.md](notes-tensorflow-hello-world.md)
 
 
 
