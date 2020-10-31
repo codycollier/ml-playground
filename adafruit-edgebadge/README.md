@@ -30,14 +30,16 @@ References:
 
 
 Steps:
-* ide: arduino ide -> preferences -> board manager urls
-* add adafruit url: https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
-* ...
-* ide: arduino ide -> Tools -> Board -> Board Managers
-* install Arduino SAMD
-* install Adafruit SAMD
-* restart, updates, etc
-* ...
+
+1. ide: arduino ide -> preferences -> board manager urls
+1. add adafruit url: https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
+
+1. ide: arduino ide -> Tools -> Board -> Board Managers
+1. install Arduino SAMD
+1. install Adafruit SAMD
+1. restart, updates, etc
+
+1. ...
 
 
 
