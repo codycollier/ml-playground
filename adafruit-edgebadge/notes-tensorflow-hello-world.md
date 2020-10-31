@@ -99,7 +99,12 @@ Done in 2.810 seconds
 
 #### Hello_World_Arcada: Select, compile, and upload the code 
 
-This version plots the output on the tft screen on the badge.  It's like the pre-compiled UF2, except it plots a line instead of a dot (the erase-last-spot doesn't appear to be working)
+This version plots the output on the tft screen on the badge.  It's similar to the pre-compiled UF2. 
+
+After some inspection, it looks like the code provided doesn't quite work with the display on my EdgeBadge. It resulted in a line instead of a dot, and it also removed the text footer on the screen after starting inference.  So I adjusted the code and also made a PR to the Adafruit repo:
+
+* https://github.com/codycollier/Adafruit_TFLite/commit/5dfa0a7a7a48d67dfe5207520273ef371d4807a3
+* https://github.com/adafruit/Adafruit_TFLite/pull/5
 
 
 ```
