@@ -54,6 +54,8 @@ customize the model
 . generate more data
 . replace and re-write
 . observe
+. tinker with the reading from disk feature
+. train and save three models to the disk
 ```
 
 
