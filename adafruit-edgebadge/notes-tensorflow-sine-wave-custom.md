@@ -28,10 +28,33 @@ ide: arduino ide -> Tools -> Board
 ```
 
 
-#### ...
+#### Customize the model
 
+Make your own sine wave data
 
 ```
+recreate the data
+. open the collab notebook
+. read and run everything
+. copy output data and replace in sine_model_data.h
+. recompile and write to flash
+. observe
+```
+
+
+Make data for a different wave form  
+(train model on different data generated from different function)
 
 ```
+customize the model
+. open the collab notebook and make a copy somewhere
+. adjust generating function and misc params like skip
+    . tried out tanh, cosine, -cos, -sin
+    . chose -sin
+. generate more data
+. replace and re-write
+. observe
+```
+
+
 
