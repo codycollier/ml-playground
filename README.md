@@ -1,6 +1,7 @@
 
-### tinyml-playground
+### ml-playground
 
-Miscellaneous tinyml projects and tinkering.
+Machine learning playground for learning, proof-of-concept, and general exploration
+
 
 
