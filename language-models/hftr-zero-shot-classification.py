@@ -38,9 +38,11 @@ if __name__ == "__main__":
 
     # data
     sequences = ["The latest drop for the loot NFT will be Thursday",
-                 "The light roast had a floral smell and taste",
+                 "The latest token offering will be next month",
+                 "The light roast had a floral smell and taste and was less bitter",
                  "She scored several goals in the second half"]
-    labels = ["cryptocurrency", "coffee", "soccer", "weather", "cooking"]
+    # labels = ["cryptocurrency", "coffee", "soccer", "weather", "cooking"]
+    labels = ["cryptocurrency", "coffee", "soccer", "weather"]
 
     # models - misc
     model_names = ["distilbert-base-uncased", "bert-base-uncased"]

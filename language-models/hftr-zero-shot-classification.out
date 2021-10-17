@@ -1,0 +1,69 @@
+
+--------------------------------------------------------------------------------
+Results  (model_name: distilbert-base-uncased)
+--------------------------------------------------------------------------------
+prediction: 0.25200337171554565 :: coffee :: The latest drop for the loot NFT will be Thursday
+prediction: 0.25159692764282227 :: coffee :: The latest token offering will be next month
+prediction: 0.2509864568710327 :: cryptocurrency :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.25074923038482666 :: soccer :: She scored several goals in the second half
+
+
+
+--------------------------------------------------------------------------------
+Results  (model_name: bert-base-uncased)
+--------------------------------------------------------------------------------
+prediction: 0.2859451472759247 :: soccer :: The latest drop for the loot NFT will be Thursday
+prediction: 0.27773845195770264 :: soccer :: The latest token offering will be next month
+prediction: 0.2888251543045044 :: soccer :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.25471362471580505 :: cryptocurrency :: She scored several goals in the second half
+
+
+
+--------------------------------------------------------------------------------
+Results  (model_name: valhalla/distilbart-mnli-12-3)
+--------------------------------------------------------------------------------
+prediction: 0.4935944080352783 :: cryptocurrency :: The latest drop for the loot NFT will be Thursday
+prediction: 0.966274619102478 :: cryptocurrency :: The latest token offering will be next month
+prediction: 0.896595299243927 :: coffee :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.6842005848884583 :: soccer :: She scored several goals in the second half
+
+
+
+--------------------------------------------------------------------------------
+Results  (model_name: valhalla/distilbart-mnli-12-9)
+--------------------------------------------------------------------------------
+prediction: 0.42087918519973755 :: cryptocurrency :: The latest drop for the loot NFT will be Thursday
+prediction: 0.9702935218811035 :: cryptocurrency :: The latest token offering will be next month
+prediction: 0.7656387686729431 :: coffee :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.45919471979141235 :: soccer :: She scored several goals in the second half
+
+
+
+--------------------------------------------------------------------------------
+Results  (model_name: facebook/bart-large-mnli)
+--------------------------------------------------------------------------------
+prediction: 0.523428201675415 :: cryptocurrency :: The latest drop for the loot NFT will be Thursday
+prediction: 0.9534509181976318 :: cryptocurrency :: The latest token offering will be next month
+prediction: 0.7543565630912781 :: coffee :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.4992041289806366 :: soccer :: She scored several goals in the second half
+
+
+
+--------------------------------------------------------------------------------
+Results  (model_name: typeform/distilbert-base-uncased-mnli)
+--------------------------------------------------------------------------------
+prediction: 0.5477906465530396 :: weather :: The latest drop for the loot NFT will be Thursday
+prediction: 0.42204660177230835 :: weather :: The latest token offering will be next month
+prediction: 0.805603563785553 :: weather :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.3512311279773712 :: soccer :: She scored several goals in the second half
+
+
+
+--------------------------------------------------------------------------------
+Results  (model_name: joeddav/xlm-roberta-large-xnli)
+--------------------------------------------------------------------------------
+prediction: 0.873498797416687 :: cryptocurrency :: The latest drop for the loot NFT will be Thursday
+prediction: 0.9557518362998962 :: cryptocurrency :: The latest token offering will be next month
+prediction: 0.34735772013664246 :: weather :: The light roast had a floral smell and taste and was less bitter
+prediction: 0.35284626483917236 :: cryptocurrency :: She scored several goals in the second half
+
