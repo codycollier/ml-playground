@@ -26,7 +26,8 @@ if __name__ == "__main__":
     model_names.append("sentence-transformers/paraphrase-xlm-r-multilingual-v1")
     model_names.append("sentence-transformers/all-MiniLM-L6-v2")
 
-    # zero shot pipeline (pipeline wraps  model, tokenizer, pre/post-processing)
+    # pipeline (pipeline wraps model, tokenizer, pre/post-processing)
+    # generally, unpooled output
     results = {}
     for model_name in model_names:
         pipe = pipeline("feature-extraction", model=model_name)
