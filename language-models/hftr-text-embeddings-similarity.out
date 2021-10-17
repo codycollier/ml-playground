@@ -1,0 +1,46 @@
+
+model: sentence-transformers/all-mpnet-base-v2  vecs: (5, 16, 768)  pooled: (5, 768)
+
+text: The latest drop for the loot NFT will be Thursday
+0.9999999999999996 :: The latest drop for the loot NFT will be Thursday
+0.4775966270175799 :: The latest token offering will be next month
+0.007014806006783994 :: The light roast had a floral smell and taste and was less bitter
+0.02016642906116371 :: She scored several goals in the second half
+-0.03285978303147537 :: His first touch and shots were great but did not result in a score
+
+text: The latest token offering will be next month
+0.4775966270175799 :: The latest drop for the loot NFT will be Thursday
+0.9999999999999996 :: The latest token offering will be next month
+0.08051808359898735 :: The light roast had a floral smell and taste and was less bitter
+0.09180517540953131 :: She scored several goals in the second half
+-0.04202341496003753 :: His first touch and shots were great but did not result in a score
+
+text: The light roast had a floral smell and taste and was less bitter
+0.007014806006783994 :: The latest drop for the loot NFT will be Thursday
+0.08051808359898735 :: The latest token offering will be next month
+0.9999999999999998 :: The light roast had a floral smell and taste and was less bitter
+0.14404626402655965 :: She scored several goals in the second half
+0.11004418665851892 :: His first touch and shots were great but did not result in a score
+
+text: She scored several goals in the second half
+0.02016642906116371 :: The latest drop for the loot NFT will be Thursday
+0.09180517540953131 :: The latest token offering will be next month
+0.14404626402655965 :: The light roast had a floral smell and taste and was less bitter
+1.0 :: She scored several goals in the second half
+0.4304510471078693 :: His first touch and shots were great but did not result in a score
+
+text: His first touch and shots were great but did not result in a score
+-0.03285978303147538 :: The latest drop for the loot NFT will be Thursday
+-0.04202341496003751 :: The latest token offering will be next month
+0.11004418665851894 :: The light roast had a floral smell and taste and was less bitter
+0.4304510471078693 :: She scored several goals in the second half
+0.9999999999999999 :: His first touch and shots were great but did not result in a score
+
+
+similarity matrix:
+[[ 1.          0.47759663  0.00701481  0.02016643 -0.03285978]
+ [ 0.47759663  1.          0.08051808  0.09180518 -0.04202341]
+ [ 0.00701481  0.08051808  1.          0.14404626  0.11004419]
+ [ 0.02016643  0.09180518  0.14404626  1.          0.43045105]
+ [-0.03285978 -0.04202341  0.11004419  0.43045105  1.        ]]
+
