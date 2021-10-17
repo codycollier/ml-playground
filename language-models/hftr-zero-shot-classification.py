@@ -30,8 +30,6 @@ def show_results(results, model_name):
     print("")
     print("")
 
-    
-
 
 if __name__ == "__main__":
 
@@ -55,10 +53,8 @@ if __name__ == "__main__":
     model_names.append("typeform/distilbert-base-uncased-mnli")
     model_names.append("joeddav/xlm-roberta-large-xnli")
 
-    results = {}
-
-
     # zero shot pipeline (pipeline wraps  model, tokenizer, pre/post-processing)
+    results = {}
     for model_name in model_names:
         pipe = pipeline("zero-shot-classification", model=model_name)
         res = pipe(sequences=sequences, candidate_labels=labels)
