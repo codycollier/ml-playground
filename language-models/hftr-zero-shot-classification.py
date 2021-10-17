@@ -42,7 +42,17 @@ if __name__ == "__main__":
                  "She scored several goals in the second half"]
     labels = ["cryptocurrency", "coffee", "soccer", "weather", "cooking"]
 
+    # models - misc
     model_names = ["distilbert-base-uncased", "bert-base-uncased"]
+
+    # models - fine tuned on nli task for zero shot cls
+    # https://huggingface.co/models?pipeline_tag=zero-shot-classification&sort=downloads&search=nli
+    model_names.append("valhalla/distilbart-mnli-12-3")
+    model_names.append("valhalla/distilbart-mnli-12-9")
+    model_names.append("facebook/bart-large-mnli")
+    model_names.append("typeform/distilbert-base-uncased-mnli")
+    model_names.append("joeddav/xlm-roberta-large-xnli")
+
     results = {}
 
 
