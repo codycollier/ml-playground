@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+Results
+seq count: 4
+--------------------------------------------------------------------------------
+model: distilbert-base-uncased  vecs: (4, 15, 384)
+model: bert-base-uncased  vecs: (4, 15, 384)
+model: sentence-transformers/distilbert-base-nli-mean-tokens  vecs: (4, 15, 384)
+model: julien-c/distilbert-feature-extraction  vecs: (4, 15, 384)
+model: sentence-transformers/paraphrase-xlm-r-multilingual-v1  vecs: (4, 15, 384)
+model: sentence-transformers/all-MiniLM-L6-v2  vecs: (4, 15, 384)
+
+
