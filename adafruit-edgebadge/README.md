@@ -1,6 +1,8 @@
 
 ## Notes on the Adafruit EdgeBadge
 
+![Sine Wave on Adafruit EdgeBadge](https://codycollier.com/static/images/card-sine-wave.gif)
+
 
 #### About the device
 
